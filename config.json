@@ -1,0 +1,14 @@
+{
+    "urls": ["https://api-dummy.katomaran.tech/health_check",
+    "https://api-toll-bms.katomaran.tech/health_check",
+    "https://api-dsv-bms.katomaran.tech/health_check",
+    "https://api-mpa-bms.katomaran.tech/health_check"],
+    "keyword": "success",
+    "check_interval": 90,
+    "notification": {
+        "type": "slack",
+        "url": "https://hooks.slack.com/services/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"
+    },
+    "retries": 5,
+    "backoff_factor": 2
+}
